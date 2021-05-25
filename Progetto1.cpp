@@ -20,11 +20,10 @@ double getResolution() {
     return duration_cast<duration>(end - start).count();
 }
 
-string createString(int n) {
+string createString3(int n) {
     int x;
     string c;
     int q = rand() % n;
-    cout << "q vale :" << q << endl;
     string s = "";
     for (int i = 0; i < q - 1; i++) {
         if (rand() % 2) {
